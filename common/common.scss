@@ -1,1 +1,45 @@
- 
+@import "common/foundation/color_transformations"; 
+//https://github.com/discourse/discourse/blob/master/app/assets/stylesheets/common/foundation/color_transformations.scss
+
+table.colors {
+    width:50%;
+    margin: 1em auto;
+    text-align: center;
+    
+    td.primary { background-color: $primary ; }
+    td.primary-very-low { background-color: $primary-very-low ; }
+    td.primary-low { background-color: $primary-low ; }
+    td.primary-low-mid { background-color: $primary-low-mid ; }
+    td.primary-medium { background-color: $primary-medium ; }
+    td.primary-high{ background-color: $primary-high ; }
+    td.primary-very-high{ background-color: $primary-very-high ; }
+    
+    td.secondary { background-color: $secondary ; }
+    td.secondary-low { background-color: $secondary-low ; }
+    td.secondary-medium { background-color: $secondary-medium ; }
+    td.secondary-high{ background-color: $secondary-high ; }
+    td.secondary-very-high{ background-color: $secondary-very-high ; }
+
+    td.tertiary { background-color: $tertiary ; }
+    td.tertiary-low { background-color: $tertiary-low ; }
+    td.tertiary-medium { background-color: $tertiary-medium ; }
+    td.tertiary-high{ background-color: $tertiary-high ; }
+    //td.tertiary-hover{ background-color: $tertiary-hover ; }
+    
+    td.quaternary { background-color: $quaternary; }
+    td.quaternary-low { background-color: $quaternary-low ; }
+    
+    td.highlight { background-color: $highlight; }
+    td.highlight-low { background-color: $highlight-low ; }
+    td.highlight-medium { background-color: $highlight-medium ; }
+    td.highlight-high{ background-color: $highlight-high ; }
+
+    td.danger { background-color: $danger; }
+    td.danger-low { background-color: $danger-low ; }
+    td.danger-medium { background-color: $danger-medium ; }
+    
+    td.success { background-color: $success; }
+    td.success-low { background-color: $success-low ; }
+    td.success-medium { background-color: $success-medium ; }
+    //td.success-hover{ background-color: $success-hover ; }     
+}
